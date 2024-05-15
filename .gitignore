@@ -1,0 +1,17 @@
+/vendor/
+/composer.phar
+
+# IDE specific
+/.idea/
+/.vscode/
+
+# Fișiere de configurare sensibile
+.env
+
+# Cache și log-uri
+cache/
+log/
+!log/.gitkeep
+
+# Directoare și fișiere generate în timpul testelor
+tests/output/
